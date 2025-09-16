@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur shadow-soft;
+}
